@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: bbf7f8efd800645d1a70e0c3f334a177
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3650994558020729754
+    second: boardbutton_0
+  - first:
+      213: -7447872458488851662
+    second: boardbutton_1
+  - first:
+      213: 6140650454098609619
+    second: boardbutton_2
+  - first:
+      213: 1310362165291060556
+    second: boardbutton_3
+  - first:
+      213: -3464612498574976759
+    second: boardbutton_4
+  - first:
+      213: -3010615235936553961
+    second: boardbutton_5
+  - first:
+      213: -468593252296795031
+    second: boardbutton_6
+  - first:
+      213: 6915000795374585915
+    second: boardbutton_7
+  - first:
+      213: -61338511562651940
+    second: boardbutton_8
+  - first:
+      213: 7083760005056814712
+    second: boardbutton_9
+  - first:
+      213: 4405782669520771399
+    second: boardbutton_10
+  - first:
+      213: 198982768282103042
+    second: boardbutton_11
+  - first:
+      213: -3222736438002976798
+    second: boardbutton_12
+  - first:
+      213: -6907194460580447574
+    second: boardbutton_13
+  - first:
+      213: -4730377186094836498
+    second: boardbutton_14
+  - first:
+      213: -3174815828974399334
+    second: boardbutton_15
+  - first:
+      213: -567472421438402973
+    second: boardbutton_16
+  - first:
+      213: -3905739183092380843
+    second: boardbutton_17
+  - first:
+      213: -1160102776772892353
+    second: boardbutton_18
+  - first:
+      213: -5970659398039777945
+    second: boardbutton_19
+  - first:
+      213: 410187299908998982
+    second: boardbutton_20
+  - first:
+      213: -5182415640486160480
+    second: boardbutton_21
+  - first:
+      213: 1614579674028166305
+    second: boardbutton_22
+  - first:
+      213: 5527521116553470380
+    second: boardbutton_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boardbutton_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 293
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6644a441bcf055dc0800000000000000
+      internalID: -3650994558020729754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boardbutton_1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 293
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2335b53a577d3a890800000000000000
+      internalID: -7447872458488851662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boardbutton_2
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 293
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d5836ead09f73550800000000000000
+      internalID: 6140650454098609619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boardbutton_3
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 293
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d094d52775f2210800000000000000
+      internalID: 1310362165291060556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boardbutton_4
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 293
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9095f02f9493befc0800000000000000
+      internalID: -3464612498574976759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boardbutton_5
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 293
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7147f92d4652836d0800000000000000
+      internalID: -3010615235936553961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boardbutton_6
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 293
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c54b47be83f79f0800000000000000
+      internalID: -468593252296795031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boardbutton_7
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 294
+        width: 51
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3888dd069407ff50800000000000000
+      internalID: 6915000795374585915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boardbutton_8
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 294
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd6c14fd2f4162ff0800000000000000
+      internalID: -61338511562651940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boardbutton_9
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 213
+        width: 93
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87ed78771329e4260800000000000000
+      internalID: 7083760005056814712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boardbutton_10
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 213
+        width: 93
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7499b5ebefb742d30800000000000000
+      internalID: 4405782669520771399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boardbutton_11
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 213
+        width: 93
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20de0e306cde2c200800000000000000
+      internalID: 198982768282103042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boardbutton_12
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 213
+        width: 93
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e7ff10d84a8643d0800000000000000
+      internalID: -3222736438002976798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boardbutton_13
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 215
+        width: 178
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa7e86eb37b420a0800000000000000
+      internalID: -6907194460580447574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boardbutton_14
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 139
+        width: 119
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee4943903035a5eb0800000000000000
+      internalID: -4730377186094836498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boardbutton_15
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 215
+        width: 177
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9091be03d9c0f3d0800000000000000
+      internalID: -3174815828974399334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boardbutton_16
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 139
+        width: 178
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e455cd6deef18f0800000000000000
+      internalID: -567472421438402973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boardbutton_17
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 165
+        width: 177
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b447e08e60cc9c0800000000000000
+      internalID: -3905739183092380843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boardbutton_18
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 61
+        width: 172
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39e187cbac76efe0800000000000000
+      internalID: -1160102776772892353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boardbutton_19
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 61
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76dcdf059e4f32da0800000000000000
+      internalID: -5970659398039777945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boardbutton_20
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 96
+        width: 341
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 647d37e0d2741b500800000000000000
+      internalID: 410187299908998982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boardbutton_21
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 115
+        width: 177
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a7d46ebe6c5418b0800000000000000
+      internalID: -5182415640486160480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boardbutton_22
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 61
+        width: 341
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1acc30cb8a3286610800000000000000
+      internalID: 1614579674028166305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boardbutton_23
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 63
+        width: 177
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca1e3a06b23b5bc40800000000000000
+      internalID: 5527521116553470380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      boardbutton_0: -3650994558020729754
+      boardbutton_1: -7447872458488851662
+      boardbutton_10: 4405782669520771399
+      boardbutton_11: 198982768282103042
+      boardbutton_12: -3222736438002976798
+      boardbutton_13: -6907194460580447574
+      boardbutton_14: -4730377186094836498
+      boardbutton_15: -3174815828974399334
+      boardbutton_16: -567472421438402973
+      boardbutton_17: -3905739183092380843
+      boardbutton_18: -1160102776772892353
+      boardbutton_19: -5970659398039777945
+      boardbutton_2: 6140650454098609619
+      boardbutton_20: 410187299908998982
+      boardbutton_21: -5182415640486160480
+      boardbutton_22: 1614579674028166305
+      boardbutton_23: 5527521116553470380
+      boardbutton_3: 1310362165291060556
+      boardbutton_4: -3464612498574976759
+      boardbutton_5: -3010615235936553961
+      boardbutton_6: -468593252296795031
+      boardbutton_7: 6915000795374585915
+      boardbutton_8: -61338511562651940
+      boardbutton_9: 7083760005056814712
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
