@@ -19,9 +19,7 @@ public class GameManager : MonoBehaviour
     public AudioSource musicSource;   
     public TextAsset fileBeatmap;
     
-    public AudioSource sfxSource;     
-    public AudioClip hitSound;        
-    public AudioClip missSound;       
+    public AudioSource sfxSource;        
 
     [Header("--- Spawning Setup ---")]
     public GameObject[] cetakanPanah;     
@@ -45,7 +43,7 @@ public class GameManager : MonoBehaviour
     [Header("--- Character Animations ---")]
     // [EDIT] Kita ganti HeroAnim lama dengan Script Visual baru
     public CharacterVisuals heroVisuals;  
-    public CharacterReactor bossAnim;     
+    public BossVisuals bossVisuals;     
 
     [Header("--- UI Panels ---")]
     public GameObject gameOverPanel; 
@@ -60,6 +58,11 @@ public class GameManager : MonoBehaviour
     public Image bossHealthBar;   
     public TextMeshProUGUI scoreText; 
     public TextMeshProUGUI comboText; 
+
+    [Header("Sound Effects")]
+    public AudioSource sfxPlayer;  // Speaker buat muter suara
+    public AudioClip hitSound;     // Kaset suara Pukulan (Hit)
+    public AudioClip missSound;    // Kaset suara Salah (Miss)
     
     // Private variables
     private float currentHeroHealth;
@@ -154,7 +157,13 @@ public class GameManager : MonoBehaviour
 
         // [EDIT] Panggil visual baru
         if (heroVisuals != null) heroVisuals.PlayAttack();
-        if (bossAnim != null) bossAnim.PlayHurt();
+        if (bossVisuals != null) bossVisuals.PlayReaction();
+
+        // TAMBAH INI: Mainkan suara Hit!
+        if (sfxPlayer != null && hitSound != null)
+        {
+            sfxPlayer.PlayOneShot(hitSound); // PlayOneShot biar suaranya bisa numpuk
+        }
 
         UpdateUI();
     }
@@ -170,6 +179,13 @@ public class GameManager : MonoBehaviour
 
         // [EDIT] Kalau Good mau nyerang juga, panggil ini:
         if (heroVisuals != null) heroVisuals.PlayAttack();
+        if (bossVisuals != null) bossVisuals.PlayReaction();
+
+        // MASUKIN DI SINI (1)
+        if (sfxPlayer != null && hitSound != null)
+        {
+            sfxPlayer.PlayOneShot(hitSound);
+        }
 
         UpdateUI();
     }
@@ -180,11 +196,19 @@ public class GameManager : MonoBehaviour
         if (currentHeroHealth < 0) currentHeroHealth = 0;
         currentCombo = 0;
         
-        if (sfxSource != null && missSound != null) sfxSource.PlayOneShot(missSound);
         if (missEffect != null) Instantiate(missEffect, effectSpawnPos.position, Quaternion.identity);
 
         // [EDIT] Panggil visual hurt baru
         if (heroVisuals != null) heroVisuals.PlayHurt();
+
+        // ... (Logika nyawa berkurang lama kamu) ...
+
+        // TAMBAH INI: Mainkan suara Miss!
+        if (sfxPlayer != null && missSound != null)
+        {
+            sfxPlayer.PlayOneShot(missSound);
+        }
+        
 
         UpdateUI();
 
@@ -209,7 +233,7 @@ public class GameManager : MonoBehaviour
         {
             if (currentCombo > 0)
             {
-                comboText.text = "COMBO\n" + currentCombo; 
+                comboText.text = currentCombo + "\nCOMBO"; 
                 comboText.gameObject.SetActive(true); 
             }
             else comboText.gameObject.SetActive(false); 
