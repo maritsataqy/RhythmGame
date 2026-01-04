@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: 9a0e4683ca7284eacade5721495cdd52
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7302830132583842284
+    second: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_0
+  - first:
+      213: -4133473175008613477
+    second: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_1
+  - first:
+      213: -3559279712483093176
+    second: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_2
+  - first:
+      213: 3708132143832569015
+    second: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_3
+  - first:
+      213: -3061648922232874347
+    second: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_4
+  - first:
+      213: -5034929258150795621
+    second: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_5
+  - first:
+      213: -5442169485913841283
+    second: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_6
+  - first:
+      213: -8658077249336288817
+    second: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_7
+  - first:
+      213: 3605919772746741084
+    second: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_8
+  - first:
+      213: -2141678536090779375
+    second: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_9
+  - first:
+      213: -591456923381828492
+    second: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_10
+  - first:
+      213: 9173166363834943299
+    second: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_11
+  - first:
+      213: 33102980971422459
+    second: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_12
+  - first:
+      213: -3555073786052160819
+    second: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_13
+  - first:
+      213: -7260008810415292910
+    second: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_14
+  - first:
+      213: -7004769162801703857
+    second: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_15
+  - first:
+      213: -904912383862315572
+    second: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_16
+  - first:
+      213: 1261796090092780796
+    second: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_17
+  - first:
+      213: 3988287111438469933
+    second: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_18
+  - first:
+      213: 703635361214227788
+    second: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_19
+  - first:
+      213: 2236399233058031872
+    second: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_20
+  - first:
+      213: 7046641519099469584
+    second: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_21
+  - first:
+      213: 5636835844159023311
+    second: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_22
+  - first:
+      213: -3717506450486411696
+    second: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_23
+  - first:
+      213: -1057825341532175800
+    second: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_24
+  - first:
+      213: 760095425938867310
+    second: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_25
+  - first:
+      213: 5922962422638204939
+    second: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_26
+  - first:
+      213: 7083066136578511557
+    second: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_27
+  - first:
+      213: 5288675031774540444
+    second: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_28
+  - first:
+      213: -205724346045609902
+    second: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_29
+  - first:
+      213: 7043508498170111835
+    second: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_30
+  - first:
+      213: -1836977965995750113
+    second: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_31
+  - first:
+      213: 1532397725194027733
+    second: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_32
+  - first:
+      213: 288934312846454024
+    second: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_33
+  - first:
+      213: -8233901119290035467
+    second: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_0
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 594
+        width: 51
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce1cda3405dd85560800000000000000
+      internalID: 7302830132583842284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_1
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 594
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9b61032c04f2a6c0800000000000000
+      internalID: -4133473175008613477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_2
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 594
+        width: 48
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 845d03995f5ea9ec0800000000000000
+      internalID: -3559279712483093176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_3
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 594
+        width: 47
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4195dc98ee57330800000000000000
+      internalID: 3708132143832569015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_4
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 594
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a1a5bc686d285d0800000000000000
+      internalID: -3061648922232874347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_5
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 594
+        width: 53
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9663b21486502ab0800000000000000
+      internalID: -5034929258150795621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_6
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 595
+        width: 53
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d71a2a8bfa78974b0800000000000000
+      internalID: -5442169485913841283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_7
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 455
+        width: 48
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc95b6b3d9458d780800000000000000
+      internalID: -8658077249336288817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_8
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 456
+        width: 46
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c557027adecca0230800000000000000
+      internalID: 3605919772746741084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_9
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 456
+        width: 40
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1110b31f7ba3742e0800000000000000
+      internalID: -2141678536090779375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_10
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 456
+        width: 39
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47471e5df09bac7f0800000000000000
+      internalID: -591456923381828492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_11
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 455
+        width: 45
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34781f5d432ad4f70800000000000000
+      internalID: 9173166363834943299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_12
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 456
+        width: 48
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf2eecd5cfa957000800000000000000
+      internalID: 33102980971422459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_13
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 456
+        width: 48
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc2de082a37d9aec0800000000000000
+      internalID: -3555073786052160819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_14
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 455
+        width: 45
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e7dfcb3744f3b90800000000000000
+      internalID: -7260008810415292910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_15
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 456
+        width: 74
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44189d2f8f0ace90800000000000000
+      internalID: -7004769162801703857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_16
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 324
+        width: 66
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5e8073bfa1173f0800000000000000
+      internalID: -904912383862315572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_17
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 324
+        width: 75
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfcf4f0dbdcc28110800000000000000
+      internalID: 1261796090092780796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_18
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 324
+        width: 80
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b0f8b3ffd395730800000000000000
+      internalID: 3988287111438469933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_19
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 324
+        width: 80
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45e39c02a0d3c900800000000000000
+      internalID: 703635361214227788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_20
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 324
+        width: 53
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0094166e049490f10800000000000000
+      internalID: 2236399233058031872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_21
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 324
+        width: 102
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01f517d7023bac160800000000000000
+      internalID: 7046641519099469584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_22
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 196
+        width: 45
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc8a944c5501a3e40800000000000000
+      internalID: 5636835844159023311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_23
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 238
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05eb8885493c86cc0800000000000000
+      internalID: -3717506450486411696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_24
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 196
+        width: 67
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 842819bd479d151f0800000000000000
+      internalID: -1057825341532175800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_25
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 196
+        width: 48
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e644c7243c66c8a00800000000000000
+      internalID: 760095425938867310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_26
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 220
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b08565331f6923250800000000000000
+      internalID: 5922962422638204939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_27
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 196
+        width: 70
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c25c5f9f1b1c4260800000000000000
+      internalID: 7083066136578511557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_28
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 207
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c923669bbe5256940800000000000000
+      internalID: 5288675031774540444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_29
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 69
+        width: 79
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2584d481cce152df0800000000000000
+      internalID: -205724346045609902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_30
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 69
+        width: 79
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b57efd539a19fb160800000000000000
+      internalID: 7043508498170111835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_31
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 74
+        width: 84
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d8a9cc54eb186e0800000000000000
+      internalID: -1836977965995750113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_32
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 72
+        width: 92
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d28ec0bc9b244510800000000000000
+      internalID: 1532397725194027733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_33
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 69
+        width: 68
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d62a80a30820400800000000000000
+      internalID: 288934312846454024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_34
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 69
+        width: 70
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2b60d9e8e4bbd80800000000000000
+      internalID: -8233901119290035467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_0: 7302830132583842284
+      Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_1: -4133473175008613477
+      Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_10: -591456923381828492
+      Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_11: 9173166363834943299
+      Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_12: 33102980971422459
+      Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_13: -3555073786052160819
+      Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_14: -7260008810415292910
+      Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_15: -7004769162801703857
+      Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_16: -904912383862315572
+      Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_17: 1261796090092780796
+      Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_18: 3988287111438469933
+      Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_19: 703635361214227788
+      Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_2: -3559279712483093176
+      Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_20: 2236399233058031872
+      Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_21: 7046641519099469584
+      Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_22: 5636835844159023311
+      Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_23: -3717506450486411696
+      Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_24: -1057825341532175800
+      Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_25: 760095425938867310
+      Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_26: 5922962422638204939
+      Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_27: 7083066136578511557
+      Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_28: 5288675031774540444
+      Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_29: -205724346045609902
+      Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_3: 3708132143832569015
+      Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_30: 7043508498170111835
+      Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_31: -1836977965995750113
+      Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_32: 1532397725194027733
+      Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_33: 288934312846454024
+      Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_34: -8233901119290035467
+      Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_4: -3061648922232874347
+      Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_5: -5034929258150795621
+      Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_6: -5442169485913841283
+      Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_7: -8658077249336288817
+      Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_8: 3605919772746741084
+      Demon-Sprite-Sheet-Pixel-Art-Pack4 (1) (1)_9: -2141678536090779375
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
