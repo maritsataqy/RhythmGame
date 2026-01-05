@@ -1,41 +1,75 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro; // <--- WAJIB ADA BIAR BISA BACA TEKS
+using System.Collections; // <--- WAJIB ADA BIAR BISA HITUNG MUNDUR
 
 public class PauseManager : MonoBehaviour
 {
-    public GameObject pausePanel; 
-    // Kita hapus variabel GameplayUI dan LaguGame biar kamu gak bingung ngisinya.
+    public GameObject pausePanel;
+    public TMP_Text countdownText; // <--- Kotak baru buat masukin teks 3-2-1 tadi
+
+    private bool isPaused = false; // Biar gak bug kalau dipencet-pencet
 
     void Update()
     {
-        // Tombol ESC buat nge-test di komputer
+        // Tombol ESC buat nge-test
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (pausePanel.activeSelf) ResumeGame();
+            if (isPaused) ResumeGame();
             else PauseGame();
         }
     }
 
     public void PauseGame()
     {
-        pausePanel.SetActive(true); // Munculin menu pause
+        isPaused = true;
+        pausePanel.SetActive(true);
         
-        Time.timeScale = 0f; // Waktu game berhenti total
-        AudioListener.pause = true; // MATIKAN SEMUA SUARA (Global Mute)
+        Time.timeScale = 0f; // Bekukan waktu
+        AudioListener.pause = true; // Matikan suara (Global Mute)
     }
 
+    // Fungsi ini dipanggil tombol Resume
     public void ResumeGame()
     {
-        pausePanel.SetActive(false); // Sembunyikan menu pause
+        // Jangan langsung unpause! Kita mulai hitung mundur dulu.
+        StartCoroutine(ProsesHitungMundur());
+    }
+
+    // Ini Logika Hitung Mundurnya
+    IEnumerator ProsesHitungMundur()
+    {
+        // 1. Sembunyikan Panel Pause biar layar bersih
+        pausePanel.SetActive(false);
+
+        // 2. Munculkan Teks Angka
+        countdownText.gameObject.SetActive(true);
+
+        // 3. Mulai Hitung (Pakai WaitForSecondsRealtime karena TimeScale lagi 0)
         
+        countdownText.text = "3";
+        yield return new WaitForSecondsRealtime(1f); // Tunggu 1 detik asli
+
+        countdownText.text = "2";
+        yield return new WaitForSecondsRealtime(1f);
+
+        countdownText.text = "1";
+        yield return new WaitForSecondsRealtime(1f);
+
+        countdownText.text = "GO!";
+        yield return new WaitForSecondsRealtime(0.5f); // Setengah detik aja buat GO
+
+        // 4. KEMBALI KE GAME
+        countdownText.gameObject.SetActive(false); // Sembunyikan angka
         Time.timeScale = 1f; // Waktu jalan lagi
-        AudioListener.pause = false; // Nyalakan lagi semua suara
+        AudioListener.pause = false; // Suara nyala lagi
+        isPaused = false;
     }
 
     public void RestartLevel()
     {
         Time.timeScale = 1f;
-        AudioListener.pause = false; 
+        AudioListener.pause = false;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
@@ -43,6 +77,6 @@ public class PauseManager : MonoBehaviour
     {
         Time.timeScale = 1f;
         AudioListener.pause = false;
-        SceneManager.LoadScene("MainMenu"); // Pastikan nama scene menu bener
+        SceneManager.LoadScene("MainMenu");
     }
 }

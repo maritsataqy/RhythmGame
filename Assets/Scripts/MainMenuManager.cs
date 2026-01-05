@@ -8,6 +8,25 @@ public class MainMenuManager : MonoBehaviour
     public GameObject panelRules;     // Wadah Info Cara Main
     public GameObject panelSelect;    // Wadah Pilih Karakter
 
+    [Header("Pengaturan Audio")]
+    public AudioSource musicSource;
+
+    void Start()
+    {
+        // Pas game mulai, kalau ada lagunya, langsung play!
+        if (musicSource != null)
+        {
+            musicSource.Play();
+        }
+    }
+   
+
+    public void KeluarGame()
+    {
+        Application.Quit();
+        Debug.Log("Keluar Game");
+    }
+
     // --- BAGIAN 1: TOMBOL DI MENU UTAMA ---
 
     public void TekanTombolPlay()
