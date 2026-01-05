@@ -63,6 +63,10 @@ public class GameManager : MonoBehaviour
     public AudioSource sfxPlayer;  // Speaker buat muter suara
     public AudioClip hitSound;     // Kaset suara Pukulan (Hit)
     public AudioClip missSound;    // Kaset suara Salah (Miss)
+
+    [Header("Karakter")]
+    public RhyrhmCharacter heroChar;
+    public RhyrhmCharacter bossChar;
     
     // Private variables
     private float currentHeroHealth;
@@ -165,6 +169,8 @@ public class GameManager : MonoBehaviour
             sfxPlayer.PlayOneShot(hitSound); // PlayOneShot biar suaranya bisa numpuk
         }
 
+        if (heroChar != null) heroChar.PlayAttack();
+
         UpdateUI();
     }
 
@@ -186,6 +192,7 @@ public class GameManager : MonoBehaviour
         {
             sfxPlayer.PlayOneShot(hitSound);
         }
+        if (heroChar != null) heroChar.PlayAttack();
 
         UpdateUI();
     }
@@ -208,6 +215,9 @@ public class GameManager : MonoBehaviour
         {
             sfxPlayer.PlayOneShot(missSound);
         }
+
+        // Kalau Boss mukul balik pas pemain salah
+        if (bossChar != null) bossChar.PlayAttack();
         
 
         UpdateUI();
