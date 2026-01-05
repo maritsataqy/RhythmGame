@@ -21,7 +21,9 @@ public class MainMenuManager : MonoBehaviour
     {
         // Buka panel rules
         panelRules.SetActive(true);
-        // (Menu utama gak usah dimatiin gpp, biar ketumpuk aja)
+        
+        // UPDATE BARU: Matikan menu utama biar GAK NUMPUK!
+        panelMainMenu.SetActive(false);
     }
 
     // --- BAGIAN 2: TOMBOL BACK / KEMBALI ---
@@ -30,6 +32,9 @@ public class MainMenuManager : MonoBehaviour
     {
         // Tutup panel rules
         panelRules.SetActive(false);
+        
+        // UPDATE BARU: Nyalakan lagi menu utama
+        panelMainMenu.SetActive(true);
     }
 
     public void TekanBackDariSelect()
@@ -41,13 +46,8 @@ public class MainMenuManager : MonoBehaviour
 
     // --- BAGIAN 3: PILIH HERO & MULAI GAME ---
 
-    public void PilihHero(int nomerHero)
+    public void PilihLevel(string namaScene)
     {
-        // Simpan pilihan hero ke memori (0=Easy, 1=Normal, 2=Hard)
-        PlayerPrefs.SetInt("PilihanKarakter", nomerHero);
-        
-        // Pindah ke Scene Game (PASTIKAN NAMA SCENE SAMA PERSIS)
-        // Ganti "SampleScene" dengan nama scene game kamu yang ada not baloknya
-        SceneManager.LoadScene("SampleScene"); 
+        SceneManager.LoadScene(namaScene);
     }
 }
