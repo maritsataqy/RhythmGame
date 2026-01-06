@@ -2961,7 +2961,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   musicSource: {fileID: 1079513282}
-  fileBeatmap: {fileID: 4900000, guid: 6a7845c2ea5ec44a99d8a00c93c3b802, type: 3}
+  fileBeatmap: {fileID: 4900000, guid: 9cbb92682ebb546208755bff99b666d2, type: 3}
   sfxSource: {fileID: 0}
   cetakanPanah:
   - {fileID: 5694528836555605103, guid: bd91cecaafe4442149440c84f65b3600, type: 3}
