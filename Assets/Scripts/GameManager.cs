@@ -40,9 +40,11 @@ public class GameManager : MonoBehaviour
     public GameObject goodEffect;
     public Transform effectSpawnPos; 
 
-    [Header("--- Character Animations ---")]
-    // [EDIT] Kita ganti HeroAnim lama dengan Script Visual baru
-    public CharacterVisuals heroVisuals;  
+    [Header("--- Character Visuals ---")]
+    // [BARU] Script untuk efek kedip merah (Karakter Diam)
+    public SimpleHitEffect heroFlash;  
+
+    // Script Boss tetap pakai yang lama (karena Boss masih ada animasi)
     public BossVisuals bossVisuals;     
 
     [Header("--- UI Panels ---")]
@@ -64,7 +66,8 @@ public class GameManager : MonoBehaviour
     public AudioClip hitSound;     // Kaset suara Pukulan (Hit)
     public AudioClip missSound;    // Kaset suara Salah (Miss)
 
-    [Header("Karakter")]
+    [Header("Karakter (Logic)")]
+    // heroChar kita biarkan null/kosong jika tidak pakai animasi
     public RhyrhmCharacter heroChar;
     public RhyrhmCharacter bossChar;
     
@@ -77,12 +80,6 @@ public class GameManager : MonoBehaviour
 
     private bool isGameActive = false; 
 
-    // --- [BARU: VARIABLE BUAT SWING OTOMATIS] ---
-    [Header("--- Auto Swing Logic ---")]
-    public float leadInTime = 2.0f; // Berapa detik sebelum not pertama swing?
-    private float waktuSwing = -1f;
-    private bool sudahSwing = false;
-    // --------------------------------------------
 
     void Start()
     {
@@ -103,6 +100,16 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
+        // --- [CHEAT] Tekan W untuk Menang Instan ---
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            LevelCleared(); // Panggil fungsi menang
+            if (musicSource != null) musicSource.Stop(); // Matikan musik biar hening
+        }
+        // -------------------------------------------
+
+
+        
         // --- LOGIKA UI ---
         if (comboText != null)
         {
@@ -115,19 +122,19 @@ public class GameManager : MonoBehaviour
         {
             float songPosition = musicSource.time;
 
-            // --- [BARU: LOGIKA EKSEKUSI SWING] ---
+            // --- [LOGIKA SWING INI SAYA MATIKAN] ---
+            // Karena heroVisuals sudah dihapus (ganti jadi heroFlash)
+            /*
             if (!sudahSwing && waktuSwing > 0 && songPosition >= waktuSwing)
             {
-                if (heroVisuals != null) 
-                {
-                    heroVisuals.PlaySwing();
-                    Debug.Log("SWING NOW! Persiapan Tempur.");
-                }
+                 // Kalau mau pakai efek suara persiapan, bisa taruh sini
+                Debug.Log("Game Mulai!");
                 sudahSwing = true;
             }
+            */
             // -------------------------------------
 
-            // Logika Spawn Note (PUNYA LO TETAP SAMA)
+            // Logika Spawn Note
             if (urutanNote < beatmap.Count)
             {
                 float waktuTarget = beatmap[urutanNote].detik + songOffset;
@@ -156,20 +163,15 @@ public class GameManager : MonoBehaviour
         currentScore += 100;  
         TambahCombo(); 
 
-        if (sfxSource != null && hitSound != null) sfxSource.PlayOneShot(hitSound);
+        // Efek Visual Partikel
         if (perfectEffect != null) Instantiate(perfectEffect, effectSpawnPos.position, Quaternion.identity);
 
-        // [EDIT] Panggil visual baru
-        if (heroVisuals != null) heroVisuals.PlayAttack();
+        // Efek Suara (Pilih satu sumber audio saja biar rapi, di sini saya pakai sfxPlayer)
+        if (sfxPlayer != null && hitSound != null) sfxPlayer.PlayOneShot(hitSound);
+        else if (sfxSource != null && hitSound != null) sfxSource.PlayOneShot(hitSound); // Backup
+
+        // [LOGIKA BARU] Hero diam saja, Boss yang bereaksi sakit
         if (bossVisuals != null) bossVisuals.PlayReaction();
-
-        // TAMBAH INI: Mainkan suara Hit!
-        if (sfxPlayer != null && hitSound != null)
-        {
-            sfxPlayer.PlayOneShot(hitSound); // PlayOneShot biar suaranya bisa numpuk
-        }
-
-        if (heroChar != null) heroChar.PlayAttack();
 
         UpdateUI();
     }
@@ -180,19 +182,15 @@ public class GameManager : MonoBehaviour
         currentScore += 50;      
         TambahCombo(); 
         
-        if (sfxSource != null && hitSound != null) sfxSource.PlayOneShot(hitSound);
+        // Efek Visual Partikel
         if (goodEffect != null) Instantiate(goodEffect, effectSpawnPos.position, Quaternion.identity);
 
-        // [EDIT] Kalau Good mau nyerang juga, panggil ini:
-        if (heroVisuals != null) heroVisuals.PlayAttack();
-        if (bossVisuals != null) bossVisuals.PlayReaction();
+        // Efek Suara
+        if (sfxPlayer != null && hitSound != null) sfxPlayer.PlayOneShot(hitSound);
+        else if (sfxSource != null && hitSound != null) sfxSource.PlayOneShot(hitSound);
 
-        // MASUKIN DI SINI (1)
-        if (sfxPlayer != null && hitSound != null)
-        {
-            sfxPlayer.PlayOneShot(hitSound);
-        }
-        if (heroChar != null) heroChar.PlayAttack();
+        // Boss bereaksi
+        if (bossVisuals != null) bossVisuals.PlayReaction();
 
         UpdateUI();
     }
@@ -203,23 +201,25 @@ public class GameManager : MonoBehaviour
         if (currentHeroHealth < 0) currentHeroHealth = 0;
         currentCombo = 0;
         
+        // Efek Partikel Miss
         if (missEffect != null) Instantiate(missEffect, effectSpawnPos.position, Quaternion.identity);
 
-        // [EDIT] Panggil visual hurt baru
-        if (heroVisuals != null) heroVisuals.PlayHurt();
+        // --- [UBAH BAGIAN INI: PANGGIL EFEK KEDIP MERAH] ---
+        if (heroFlash != null) 
+        {
+            heroFlash.FlashRed();
+        }
+        // ----------------------------------------------------
 
-        // ... (Logika nyawa berkurang lama kamu) ...
-
-        // TAMBAH INI: Mainkan suara Miss!
+        // Efek Suara Miss
         if (sfxPlayer != null && missSound != null)
         {
             sfxPlayer.PlayOneShot(missSound);
         }
 
-        // Kalau Boss mukul balik pas pemain salah
+        // Kalau Boss mukul balik pas pemain salah (Jika Boss masih punya animasi attack)
         if (bossChar != null) bossChar.PlayAttack();
         
-
         UpdateUI();
 
         if (currentHeroHealth <= 0) GameOver(); 
@@ -256,7 +256,6 @@ public class GameManager : MonoBehaviour
 
         string[] baris = fileBeatmap.text.Split('\n');
         bool mulaiBaca = false; 
-        float waktuNotPertama = -1f; // [BARU] Penampung
 
         foreach (string b in baris)
         {
@@ -270,14 +269,6 @@ public class GameManager : MonoBehaviour
                 if (data.Length > 2)
                 {
                     float waktu = int.Parse(data[2]) / 1000f;
-                    
-                    // --- [BARU: DETEKSI NOT PERTAMA] ---
-                    if (waktuNotPertama == -1f)
-                    {
-                        waktuNotPertama = waktu;
-                        waktuSwing = waktuNotPertama - leadInTime; // Set jadwal swing
-                    }
-                    // -----------------------------------
 
                     int x = int.Parse(data[0]);
                     int tipeNote = int.Parse(data[3]); 
