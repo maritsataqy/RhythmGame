@@ -3050,8 +3050,8 @@ MonoBehaviour:
   - {fileID: 1272123902}
   noteTravelTime: 2
   songOffset: 0
-  maxHeroHealth: 3000
-  maxBossHealth: 5000
+  maxHeroHealth: 500
+  maxBossHealth: 1000
   perfectEffect: {fileID: 4104149437115016152, guid: 42c056c98daee41dabf27a980a56112d, type: 3}
   missEffect: {fileID: 2348853973666624306, guid: 468e18ccd927640f3912c99afed6cfe8, type: 3}
   goodEffect: {fileID: 3071751630813306166, guid: ff3d0da2d0cc34ae2b6efa8d9b0f97cc, type: 3}

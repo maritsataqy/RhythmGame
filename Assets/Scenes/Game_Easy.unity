@@ -1418,6 +1418,7 @@ GameObject:
   - component: {fileID: 384941314}
   - component: {fileID: 384941313}
   - component: {fileID: 384941312}
+  - component: {fileID: 384941315}
   m_Layer: 5
   m_Name: Paused
   m_TagString: Untagged
@@ -1539,6 +1540,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 384941310}
   m_CullTransparentMesh: 1
+--- !u!114 &384941315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 384941310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23d9b19a5515d44c4bcc1a7b08cb0ba9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonScaleAnim
+  scaleBesar: 1.1
 --- !u!1 &442155808
 GameObject:
   m_ObjectHideFlags: 0

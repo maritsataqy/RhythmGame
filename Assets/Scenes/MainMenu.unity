@@ -1261,6 +1261,7 @@ GameObject:
   - component: {fileID: 876735839}
   - component: {fileID: 876735838}
   - component: {fileID: 876735837}
+  - component: {fileID: 876735840}
   m_Layer: 5
   m_Name: Tombol_Back_Select
   m_TagString: Untagged
@@ -1381,6 +1382,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 876735835}
   m_CullTransparentMesh: 1
+--- !u!114 &876735840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 876735835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23d9b19a5515d44c4bcc1a7b08cb0ba9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonScaleAnim
+  scaleBesar: 1.1
 --- !u!1 &883519867
 GameObject:
   m_ObjectHideFlags: 0
@@ -1393,6 +1407,7 @@ GameObject:
   - component: {fileID: 883519871}
   - component: {fileID: 883519870}
   - component: {fileID: 883519869}
+  - component: {fileID: 883519872}
   m_Layer: 5
   m_Name: Btn_Char1
   m_TagString: Untagged
@@ -1514,6 +1529,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 883519867}
   m_CullTransparentMesh: 1
+--- !u!114 &883519872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883519867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23d9b19a5515d44c4bcc1a7b08cb0ba9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonScaleAnim
+  scaleBesar: 1.1
 --- !u!1 &896382977
 GameObject:
   m_ObjectHideFlags: 0
@@ -1526,6 +1554,7 @@ GameObject:
   - component: {fileID: 896382981}
   - component: {fileID: 896382980}
   - component: {fileID: 896382979}
+  - component: {fileID: 896382982}
   m_Layer: 5
   m_Name: Btn_Char2
   m_TagString: Untagged
@@ -1647,6 +1676,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 896382977}
   m_CullTransparentMesh: 1
+--- !u!114 &896382982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896382977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23d9b19a5515d44c4bcc1a7b08cb0ba9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonScaleAnim
+  scaleBesar: 1.1
 --- !u!1 &934958682
 GameObject:
   m_ObjectHideFlags: 0
@@ -2021,6 +2063,7 @@ GameObject:
   - component: {fileID: 1224051793}
   - component: {fileID: 1224051792}
   - component: {fileID: 1224051791}
+  - component: {fileID: 1224051794}
   m_Layer: 5
   m_Name: Btn_Char3
   m_TagString: Untagged
@@ -2142,6 +2185,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1224051789}
   m_CullTransparentMesh: 1
+--- !u!114 &1224051794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1224051789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23d9b19a5515d44c4bcc1a7b08cb0ba9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonScaleAnim
+  scaleBesar: 1.1
 --- !u!1 &1344909278
 GameObject:
   m_ObjectHideFlags: 0
@@ -2574,6 +2630,7 @@ GameObject:
   - component: {fileID: 1752108469}
   - component: {fileID: 1752108468}
   - component: {fileID: 1752108467}
+  - component: {fileID: 1752108470}
   m_Layer: 5
   m_Name: Tombol_Rules
   m_TagString: Untagged
@@ -2694,6 +2751,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1752108465}
   m_CullTransparentMesh: 1
+--- !u!114 &1752108470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1752108465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23d9b19a5515d44c4bcc1a7b08cb0ba9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonScaleAnim
+  scaleBesar: 1.1
 --- !u!1 &1753835856
 GameObject:
   m_ObjectHideFlags: 0
@@ -2706,6 +2776,7 @@ GameObject:
   - component: {fileID: 1753835860}
   - component: {fileID: 1753835859}
   - component: {fileID: 1753835858}
+  - component: {fileID: 1753835861}
   m_Layer: 5
   m_Name: Tombol_Play
   m_TagString: Untagged
@@ -2826,6 +2897,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1753835856}
   m_CullTransparentMesh: 1
+--- !u!114 &1753835861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753835856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23d9b19a5515d44c4bcc1a7b08cb0ba9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonScaleAnim
+  scaleBesar: 1.1
 --- !u!1 &1784996004
 GameObject:
   m_ObjectHideFlags: 0
